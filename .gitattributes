@@ -1,0 +1,10 @@
+# See: https://git-scm.com/docs/gitattributes
+
+# DEFAULT
+* text=auto eol=lf
+
+*.md diff=markdown
+
+# SPECIFIC FOR PROJECT
+*.sh diff=bash
+*.bash diff=bash
