@@ -1,0 +1,9 @@
+# See: https://www.shellcheck.net/wiki/Optional
+
+# DEFAULT
+external-sources=true
+enable=deprecate-which
+enable=quote-safe-variables
+enable=avoid-nullary-conditions
+
+# SPECIFIC FOR PROJECT

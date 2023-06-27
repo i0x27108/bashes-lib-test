@@ -8,3 +8,4 @@
 # SPECIFIC FOR PROJECT
 *.sh diff=bash
 *.bash diff=bash
+*.bats diff=bash

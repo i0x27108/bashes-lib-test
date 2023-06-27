@@ -1,0 +1,16 @@
+# Uses git configuration syntax, see: https://git-scm.com/docs/git-config#EXAMPLES
+# NOTE: Set the paths relative the repository root
+
+
+[inspect-shellcode]
+	dir = src|test_
+	exclude-dir = .git
+	file = *.sh|*bash
+	exclude-file = *_no_shellcheck*
+
+
+[init-git-subtree]
+	target = test/framework/core|https://github.com/bats-core/bats-core.git|v1.9.0
+	target = test/framework/file|https://github.com/bats-core/bats-file.git|v0.3.0
+	target = test/framework/assert|https://github.com/bats-core/bats-assert.git
+	target = test/framework/support|https://github.com/bats-core/bats-support.git|v0.3.0
