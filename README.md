@@ -15,7 +15,7 @@ Extended Bash Scripts — Libraries. Makes it easier to create advanced scripts.
 - [ShellCheck](https://www.shellcheck.net/) >= 0.8
 
 ### Usage
-At the root of the project, run the `make` or `make help` command to display the available actions.
+At the root of the project, run the `make` or `make help` command to display the available actions. Or some also!
 
 
 ## License
